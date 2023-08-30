@@ -1,0 +1,132 @@
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    /* Use flexbox */
+    background-color: #f0ced9;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    /* Establish a positioning context for the entire column */
+}
+
+.left {
+    position: relative;
+    /* Position the first image relatively */
+    z-index: 1;
+    /* Set a z-index value for the first image (lower value) */
+}
+
+.left img {
+    width: 80%;
+    height: 530px;
+    margin-left: 12%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.leftImage {
+    position: absolute;
+    /* Position the second image absolutely */
+    top: 0;
+    /* Adjust top position as needed */
+    left: 0;
+    /* Adjust left position as needed */
+    z-index: 2;
+    /* Set a higher z-index value for the second image (upper value) */
+}
+
+.leftImage img {
+    width: 95%;
+    height: auto;
+    margin-left: 60%;
+    margin-top: 2%;
+
+
+}
+
+.column p {
+    margin-top: 08%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-size: x-large;
+}
+
+.column h1 {
+    color: white;
+    font-size: xx-large;
+    margin-top: -9%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.column h2 {
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: xx-large;
+}
+
+.column h3 {
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: x-large;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: left;
+    /* Horizontally center the icons */
+    align-items: center;
+    /* Vertically center the icons */
+    margin-left: 10%;
+
+}
+
+.icons img {
+    margin: 20%;
+    /* Remove any margin */
+    padding: 5px;
+    /* Remove any padding */
+    object-fit: contain;
+    /* Ensure all images fit within their containers */
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add a box shadow on hover (customize as needed) */
+
+}
+
+.alsoAboutMe {
+    background-color: #ca97ca
+       /*  Set your background color */
+    
+
+
+}
+
+.curve {
+    background-color: #f0ced9;
+}
+
+.alsoAboutMe {
+    display: flex;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+#lap{
+    margin-left: 35%;
+    margin-top: 5%;
+}
